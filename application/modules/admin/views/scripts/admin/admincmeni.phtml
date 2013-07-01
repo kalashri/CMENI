@@ -1,0 +1,39 @@
+<form name="submitAdminCmeni" method="post">
+	<div align="center"> <!--  class="adminwrap" -->
+		<fieldset class="adminMainField" id="adminMainField">	
+			<table align="center">
+				<tr>
+					<td class="padding_td" valign="top">
+						<label class="headBold">History:</label>
+					</td>
+					<td>
+						<textarea type="text" id="historyTxt" name="historyTxt" rows="5" cols="70"></textarea>
+					</td>					
+				</tr>
+				<tr>
+					<td class="padding_td">
+						<label class="headBold">Add Question:</label>
+					</td>
+					<td class="padding_td">
+						<input type="button" id="newQuestionTxt" name="newQuestionTxt"  onclick="clone();" value="Add Question"></input>
+					</td>
+				</tr>
+			</table>	
+			<br/>
+		</fieldset>
+		<table>
+			<tr>
+				<td colspan=2 class="padding_td">	
+					<input type="button"  style="margin-left:40%;" class="submit_input" name="submitBtn" id="submitBtn" value="Submit" onclick="submitAdminCmeniForm('<?php echo $this->baseUrl(); ?>' ,'/admin/admin/admincmeni','save',this.form);"></input>
+				</td>		
+			</tr>
+		</table>  
+			<input type="hidden" name="op" id="op"/>
+			<input type="hidden" name="txtBoxHdn[]" id="txtBoxHdn[]"/>
+	</div>
+</form>
+<script>
+var Count=0;
+var i=0;	
+
+</script>

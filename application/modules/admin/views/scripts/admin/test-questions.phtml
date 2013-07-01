@@ -1,0 +1,55 @@
+<form  name="testQuestionsFrm" method="post" action="test-questions">
+	<div align="center">
+	<fieldset  class="textQuestionField">
+				<label style="color:rgb(59, 59, 59);"><h3><b>Online Test</b></h3>	</label>
+				<fieldset class="fieldset_border_none_test_one">
+				 <table align="left">
+					<tr>
+						<td  valign="top"><label  class="headBold">History:</label></td>
+						<td><label><?php echo $this->history; ?></label></td>	
+					</tr>
+				 </table>
+				</fieldset>
+			<fieldset class="fieldset_border_none">
+				<div class="wrap">
+				<table align="left">
+						<tr>
+							<td span=2 valign="top"><label  class="headBold">Question: </label><label><?php echo $this->question; ?></label></td>
+												
+						</tr>
+
+						<?php  
+						if(is_array($this->optionArray))
+						{
+							for($i=0;$i<count($this->optionArray); $i++)
+							{ ?>
+								<tr><td class="padding_td">	<input type="radio" id="ansId"  name="ansId"  value="<?php echo $this->optionArray[$i]; ?>">
+								<?php echo $this->optionArray[$i]; ?>
+								</input> </td> </tr>
+								<?php 
+							}
+						}
+						else{ ?>
+									<tr><td class="padding_td">	<input type="radio" id="ansId"  name="ansId"  value="<?php echo $this->optionArray; ?>">
+									<?php echo $this->optionArray; ?>
+								</input> </td> </tr>
+						<?php }
+						?>
+						<tr>
+						   <td colspan=2 class="padding_td"> 
+							<input type="button" style="margin-left:180%" class="submit_input" name="nextBtn" id="nextBtn"  value="Next" onclick="submitQuestionForm(this.form)"></input>
+							<input type="hidden" name="historyCount" id="historyCount" value="<?php if(isset($this->historyCount)){echo $this->historyCount; } ?>"/>
+							<input type="hidden" name="qCount" id="qCount" value="<?php if(isset($this->qCount)){echo $this->qCount; } ?>"/>
+							<input type="hidden" name="questionCount" id="questionCount" value="<?php if(isset($this->questionCount)){echo $this->questionCount; } ?>"/>
+							<input type="hidden" name="xmlArrayCount" id="xmlArrayCount" value="<?php echo $this->xmlArrayCount; ?>" />
+							<input type="hidden" name="correctOption" id="correctOption" value="<?php echo $this->correctOption; ?>" />
+						   </td>  
+						</tr>
+					</table>
+				</div>
+			</fieldset>
+	</fieldset>
+	</div>
+</form>
+
+

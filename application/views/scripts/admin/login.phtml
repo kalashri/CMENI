@@ -1,0 +1,79 @@
+<script language="JavaScript" src="<?php echo $this->baseUrl(); ?>/script/gen_validatorv4.js" type="text/javascript" xml:space="preserve"></script>
+<?php 
+	$formErrors = $this->getHelper('formErrors'); 
+    	$formErrors->setElementStart('</td><td class="login_right_bg"></td></tr><tr><td class="login_left_bg"></td><td colspan="2" id="error_text" class="red_text">*&nbsp;&nbsp;') 
+               ->setElementSeparator('<br />*&nbsp;&nbsp;') 
+               ->setElementEnd(''); 
+
+ ?>
+<table width="100%" cellspacing="0" cellpadding="0"  height="100%" border="0">
+<form name= "login" method = "post">
+        <TBODY>
+        <TR>
+          <TD vAlign=bottom align=middle colSpan=2>
+            <TABLE cellSpacing=0 cellPadding=0 border="0">
+              <TBODY>
+              <TR>
+                <TD>&nbsp;</TD>
+                <TD>&nbsp;</TD>
+                <TD>&nbsp;</TD>
+                <TD>&nbsp;</TD>
+                <TD rowspan="2" colspan="3" align="center">
+				<table width="300" cellspacing="0" cellpadding="0" border="0" class="td_text">
+					<tr>
+						<td width="17" valign="bottom" class="login_left_top">&nbsp;&nbsp;&nbsp;&nbsp;</td>
+						<td colspan="2" height="30" valign="middle" class="login_top_bg">&nbsp;<!--<img src="/images/login.jpg">--></td>
+						<td width="24" valign="bottom" class="login_right_top">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+						</tr>
+					<tr>
+						<td height="10" class="login_left_bg"></td>
+						<td width="40%" class="white_bg"></td>
+						<td width="50%" class="white_bg"></td>
+						<td class="login_right_bg"></td>
+					</tr>
+					<tr>
+						<td height="30" class="login_left_bg">&nbsp;</td>
+						<td class="white_bg" align="center">Username</td>
+						<td class="white_bg"><?php echo $this->form->userName;?></td>
+						<td class="login_right_bg">&nbsp;</td>
+					</tr>
+					<tr>
+						<td height="30" class="login_left_bg" >&nbsp;</td>
+						<td class="white_bg" align="center">Password</td>
+						<td class="white_bg"><?php echo $this->form->passWord;?></td>
+						<td class="login_right_bg">&nbsp;</td>
+					</tr>
+					<tr>
+						<td class="login_left_bg" height="35" >&nbsp;</td>
+						<td class="white_bg" colspan="2" align="center"><?php echo $this->form->submit;?></td>
+						<td class="login_right_bg">&nbsp;</td>
+					</tr>
+					<tr>
+						<td height="30" class="login_left_bottom"></td>
+						<td width="40%" class="login_bottom_bg"></td>
+						<td width="50%" class="login_bottom_bg"></td>
+						<td class="login_right_bottom"></td>
+					</tr>
+
+				</table>
+				</TD>
+			  </TR>
+              <TR>
+                <TD>&nbsp;</TD>
+                <TD valign="bottom"><img src="<?php echo $this->baseUrl(); ?>/images/1.jpg" height="63" width="135"></TD>
+                <TD>&nbsp;</TD>
+                <TD valign="bottom"><img src="<?php echo $this->baseUrl(); ?>/images/2.jpg" height="63" width="124"></TD>
+			  </TR>
+        
+			  </TBODY>
+			</TABLE>
+		  </TD></TR>
+		  </TBODY>
+	</TABLE>
+</form>
+<script language="JavaScript" type="text/javascript" xml:space="preserve">
+  var frmvalidator  = new Validator("login");
+  frmvalidator.addValidation("userName","req","Please enter your UserName");
+  frmvalidator.addValidation("userName","email");
+  frmvalidator.addValidation("passWord","req","Please enter your Password");
+</script>

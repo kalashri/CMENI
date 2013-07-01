@@ -1,0 +1,189 @@
+
+.heading
+{
+	font-family:arial;
+	font-style:italic;
+	font-weight:bold;
+	font-size:4em;
+	color:#297CCF;
+	margin:0 12px 0 0;
+}
+.headingDiv
+{
+	width:45%;
+	background-color:#EBEBEB;
+	border-radius:10px;
+	border: 2px outset #E8E8E8;
+	margin:0 0 0 27.4%;
+}
+
+body 
+{
+	width:auto;
+	height:auto;
+	background-color:#D8D8D8;
+	font-family:arial;
+}
+
+.orderMainField
+{
+	display: inline-block;
+	border: 10px solid white;
+	/*border-radius:10px; */
+	width:auto;
+	height:auto;
+	background-color:rgb(86, 143, 230);
+	margin:3% 0 0 0;
+}
+.textQuestionField
+{
+	display: inline-block;
+	border: 10px solid white;
+	/*border-radius:10px; */
+	width:50%;
+	height:auto;
+	background-color:rgb(86, 143, 230);
+	margin:3% 0 0 0;
+}
+.adminMainField
+{
+	display: inline-block;
+	border: 10px solid white;
+	/*border-radius:10px; */
+	width:auto;
+	height:auto;
+	background-color:rgb(86, 143, 230);
+	margin:3% 0 0 0;
+}
+.adminwrap
+{
+	max-height:950px;
+	overflow-y:scroll;
+	width:auto;
+}
+
+.frm_detail
+{
+	width:100%;color:#000000;font-size:15px;padding:4% 0 0 0;text-align:left;
+}
+
+.login_detail
+{
+	width:100%;color:#000000;font-size:14px;
+}
+
+.left
+{ 
+	float:left;
+}
+
+.right
+{
+	float:right;
+}
+
+.padding_td
+{
+	padding:2% 0 0 0;
+}
+.submit
+{
+	padding:20px 0 0 0;
+}
+
+.submit_input
+{
+	margin:0.5px 0 0;
+	background-color:#COCOCO;
+}
+
+.redStar
+{
+	color:red;
+}
+
+.txtBoxSpace
+{
+	padding:1% 0 0 0;
+}
+
+.fieldSetBorder
+{
+	display: inline-block;
+	border: 1px outset #6e6e6e;
+	border-radius: 4px 4px 4px 4px;
+}
+.fieldSetTable
+{
+	border: 1px outset #6e6e6e;
+	border-radius: 4px 4px 4px 4px;
+}
+.errorMsgLbl
+{
+	color:red;
+	font-size:12px;
+}
+.successMsgLbl
+{
+	color:#0a4e9f;
+	font-weight:bold;
+}
+.btnColor
+{
+	background-color:#COCOCO;
+}
+.fieldset_border_none
+{
+	border:none;
+	width:auto;
+	max-height:auto;
+}
+.fieldset_border_none_test_one
+{
+	border:none;
+	width:auto;
+	min-height:150px;
+	max-height:300px;
+	overflow-y:auto;
+	background-color:#ffffff;
+}
+.width_auto
+{
+	width:auto;
+}
+.wrap
+{   
+	max-height:450px;
+	overflow-y:auto;
+	overflow-x:hidden;
+	width:auto;
+}
+.txtAlign
+{
+	text-align:left;
+}
+.headBold
+{
+	font-family:arial;
+	font-weight:bold;
+	color:#3B3B3B;
+	float:left;
+
+}
+.borderTbl
+{
+	border:1px solid #9A9A9A;
+	border-collapse:collapse;
+}
+.paddingLeft
+{
+	padding-left:30px;
+}
+
+
+.fixedHeader th {
+	float:left;
+	font-weight:bold;
+	text-align:left;
+	border:none;	
+}

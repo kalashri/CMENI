@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<root>
+	<history>
+		<history_desc>History1: A 66 year old male for elective right thoractomy and upper labectomy for sqaumous cell carcinoma. History of emphysema A 66 year old male for elective right thoractomy and upper labectomy for sqaumous cell carcinoma.</history_desc>
+		<question>
+			<quest_desc>Q1</quest_desc>
+			<option>opt1</option>
+			<option>opt2</option>
+			<option>opt3</option>			
+			<correct_option>opt2</correct_option>
+		</question>
+		<question>
+			<quest_desc>What would you expect at bronchoscopy?</quest_desc>
+			<option>opt1</option>
+			<option>opt2</option>
+			<correct_option>opt2</correct_option>
+		</question>
+		
+	</history>
+	<history>
+		<history_desc>History2</history_desc>
+		<question>
+			<quest_desc>What would you expect at bronchoscopy?</quest_desc>
+			<option>opt1</option>
+			<option>opt2</option>
+			<option>opt3</option>
+			<option>opt4</option>
+			<correct_option>opt2</correct_option>
+		</question>
+		<question>
+			<quest_desc>What would you expect at bronchoscopy?</quest_desc>
+			<option>opt1</option>
+			<option>opt2</option>
+			<option>opt3</option>			
+			<correct_option>opt2</correct_option>
+		</question>
+		<question>
+			<quest_desc>What would you expect at bronchoscopy?</quest_desc>
+			<option>opt1</option>
+			<option>opt2</option>			
+			<correct_option>opt2</correct_option>
+		</question>
+	</history>
+	<history>
+		<history_desc>History3</history_desc>
+		<question>
+			<quest_desc>What would you expect at bronchoscopy?</quest_desc>
+			<option>opt1</option>
+			<option>opt2</option>
+			<option>opt3</option>
+			<option>opt4</option>
+			<correct_option>opt2</correct_option>
+		</question>
+		<question>
+			<quest_desc>What would you expect at bronchoscopy?</quest_desc>
+			<option>opt1</option>
+			<option>opt2</option>
+			<option>opt3</option>			
+			<correct_option>opt2</correct_option>
+		</question>
+		<question>
+			<quest_desc>What would you expect at bronchoscopy?</quest_desc>
+			<option>opt1</option>
+			<option>opt2</option>			
+			<correct_option>opt2</correct_option>
+		</question>
+	</history>
+</root>

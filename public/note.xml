@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<root>
+  <history/>
+  <history>
+    <history_desc>History1: To teach relevant anatomy and sonoanatomy to perform both landmark and ultrasound guided central venous access.
+ To teach needling skills on ultrasound phantoms.To teach relevant anatomy and sonoanatomy to perform both landmark and ultrasound guided central venous access.
+To teach needling skills on ultrasound phantoms. To review other topics including aspesis and complications of cvc insertion.
+ To review other topics including aspesis and complications of cvc insertion.</history_desc>
+    <question/>
+    <question>
+      <quest_desc>Question3</quest_desc>
+      <option>option1</option>
+      <option>option2</option>
+      <correct_option>option2</correct_option>
+    </question>
+  </history>
+</root>
